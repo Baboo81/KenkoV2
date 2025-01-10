@@ -1,4 +1,17 @@
 <?php
+//Fichier de configuration: il contient; les réglages de sécurité, emplacement des répertoires spéciaux + autres config du site
+
+//Define temporary files directory:
+$settings['file_temp_path'] = '../temp';
+
+//Define public files directory:
+$settings['file_public_path'] = 'sites/default/files';
+
+//Define private files directory:
+$settings['file_private_path'] = '../private_files';
+
+//Define configuration files directory:
+$settings['config_sync_directory'] = '../config/sync';
 
 // phpcs:ignoreFile
 
