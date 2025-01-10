@@ -37,6 +37,20 @@
         "sort-packages": true
     },
     "extra": {
+        "patches": {
+            "drupal/core": {
+                "Patch for Drupal core": "Patches/core/file.patch"
+            },
+        "drupal/module_name_1": {
+            "Description of the patch": 
+    "https://www.example.com/patch/to/file.patch"
+        },
+        "drupal/module_name_2": {
+            "Another patch":
+    "https://www.example.com/different/patch/to/file.patch",
+            "Local patch": "patches/module_name/file.patch"
+        }
+    },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
